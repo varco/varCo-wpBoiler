@@ -1,0 +1,122 @@
+
+
+/***********************************************************************
+Settings
+
+    _reset.scss contains:
+    - base default styling for tags, all elements have been reset to a base font size.
+    - the base font-size of 100% (1em = 16px on most browsers - see: http://zellwk.com/blog/rem-vs-em/)
+************************************************************************/
+
+    //Headings
+
+    $h-xlarge: 3em;
+    $h-large: 2.5em;
+    $h-medium: 2em;
+    $h-small: 1.5em;
+    $h-xsmall: 1em;
+
+    @mixin h-xlarge  {
+        font-size: $h-xlarge;
+        line-height: $h-xlarge * 0.5;
+        @media (max-width: $medium-breakpoint) {
+            font-size:  $h-xlarge - 0.2em;
+        }
+        @media (max-width: $small-breakpoint) {
+            font-size:  $h-xlarge - .3em;
+        }
+    }
+
+    @mixin h-large {
+        font-size: $h-large;
+        line-height: $h-large * 0.5;
+        @media (max-width: $medium-breakpoint) {
+            font-size: $h-large - 0.2em;
+        }
+        @media (max-width: $small-breakpoint) {
+            font-size:  $h-large - 0.3em;
+        }
+    }
+
+    @mixin h-medium {
+        font-size: $h-medium;
+        line-height: $h-medium * 0.5;
+        @media (max-width: $medium-breakpoint) {
+            font-size: $h-medium - 0.2em;
+        }
+        @media (max-width: $small-breakpoint) {
+            font-size: $h-medium - 0.3em;
+        }
+    }
+
+    @mixin h-small {
+        font-size: $h-small;
+        line-height: $h-small * 0.5;
+        @media (max-width: $medium-breakpoint) {
+            font-size: $h-small - 0.1em;
+        }
+        @media (max-width: $small-breakpoint) {
+            font-size: $h-small - 0.2em;
+        }
+    }
+
+    @mixin h-xsmall {
+        font-size: $h-xsmall;
+        line-height: $h-xsmall * 0.5;
+        @media (max-width: $medium-breakpoint) {
+            font-size: $h-xsmall - 0.1em;
+        }
+        @media (max-width: $small-breakpoint) {
+            font-size: $h-xsmall - 0.2em;
+        }
+    }
+
+    //Text
+    $t-xlarge: 2em;
+    $t-large: 1.5em;
+    $t-medium: 1em;
+    $t-small: 0.9em;
+    $t-xsmall: 0.8em;
+
+    @mixin t-xlarge {
+        font-size: $t-xlarge;
+        line-height: $t-xlarge * 1.5;
+        @media (max-width: $medium-breakpoint) {
+            font-size: $t-xlarge - 0.1em;
+        }
+        @media (max-width: $small-breakpoint) {
+            font-size: $t-xlarge - 0.2em;
+        }
+    }
+
+    @mixin t-large {
+        font-size: $t-large;
+        line-height: $t-large * 1.5;
+        @media (max-width: $medium-breakpoint) {
+            font-size: $t-large - 0.1em;
+        }
+        @media (max-width: $small-breakpoint) {
+            font-size: $t-large - 0.2em;
+        }
+    }
+
+    @mixin t-medium {
+        font-size: $t-medium;
+        line-height: $t-medium * 1.5;
+        @media (max-width: $medium-breakpoint) {
+            font-size: $t-medium - 0.1em;
+        }
+        @media (max-width: $small-breakpoint) {
+            font-size: $t-medium - 0.2em;
+        }
+    }
+
+    @mixin t-small {
+        font-size: $t-small;
+        line-height: $t-small * 1.5;
+    }
+
+    @mixin t-xsmall {
+        font-size: $t-xsmall;
+        line-height: $t-xsmall * 1.5;
+    }

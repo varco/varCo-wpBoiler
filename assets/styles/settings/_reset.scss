@@ -1,0 +1,59 @@
+/***********************************************************************
+
+    Base Tag Styling
+
+************************************************************************/
+
+    //Heading
+        h1 {
+            @include heading-xlarge;
+        }
+        h2 {
+            @include heading-large;
+        }
+        h3 {
+            @include heading-medium;
+        }
+        h4 {
+            @include heading-small;
+        }
+        h5 {
+            @include heading-xsmall;
+        }
+
+    //Text
+        p {
+            @include text-medium;
+            margin-bottom: 20px;
+        }
+
+        p.lead-copy {
+            @include text-xxlarge;
+            margin: 0 auto;
+            width: 80%;
+        }
+
+        blockquote {
+            @include text-small;
+            margin-bottom:20px;
+        }
+
+        cite {
+            @include text-small;
+        }
+
+        //.cta { found in unused about template - likely can be deleted
+            //font-size: 1.1em;
+        //}
+
+        strong {
+            font-weight: 500
+        }
+
+        .link {
+            color:#348ac3;
+            text-decoration: none;
+            &:hover {
+                color:#eb636a
+            }
+        }

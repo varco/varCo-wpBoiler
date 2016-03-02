@@ -1,0 +1,42 @@
+/* debug styles */
+#debug-message {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+    padding: 10px;
+    width: 50px;
+    height: 100px;
+    font-size: 12px;
+    color: #fff;
+    background: pink;
+    p {
+        margin: 0;
+    }
+    .small, .medium, .large, .exlarge {
+        display: none;
+    }
+    .small {
+        display: block;
+    }
+
+    @include breakpoint(medium only) {
+        background: blue;
+        .small, .large, .exlarge {
+            display: none;
+        }
+        .medium {
+            display: block;
+        }
+    }
+
+    @include breakpoint(large up) {
+        background: lightgreen;
+        .small, .medium, .exlarge {
+            display: none;
+        }
+        .large {
+            display: block;
+        }
+    }
+}

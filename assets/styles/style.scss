@@ -1,0 +1,81 @@
+/*
+Theme: Go Cactus Starter Theme
+Author: Go Cactus Inc.
+Description: Go Cactus Starter Theme styles management file.
+Version: 1.1
+
+DO NOT EDIT ORDER OF FILES
+*/
+
+//Import Vendor Styles
+@charset 'utf-8';
+@import '../vendor/foundation-sites/scss/util/util';
+@import '../vendor/foundation-sites/scss/foundation';
+@import '../vendor/foundation-icon-fonts/foundation-icons';
+@import '../vendor/motion-ui/motion-ui';
+
+// Reset, Variables, Mixins, Etc
+@import 'settings/settings';
+@import "settings/normalize";
+@import "settings/debug";
+@import "mixins/mixins";
+@import "mixins/type";
+@import "settings/base";
+
+// Layout & Menus
+@import "partials/layout";
+@import "partials/header";
+@import "partials/footer";
+@import "partials/menus";
+@import "partials/widgets";
+@import "partials/comments";
+@import "partials/forms";
+@import "partials/helpers";
+@import "partials/print";
+
+//Page & Post styles
+@import "partials/page-post";
+@import "partials/page-home";
+@import "partials/page-blog";
+
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-button;
+@include foundation-forms;
+@include foundation-visibility-classes;
+@include foundation-float-classes;
+
+/* Optional Foundation Classes */
+	//@include foundation-accordion;
+	//@include foundation-accordion-menu;
+	//@include foundation-badge;
+	//@include foundation-breadcrumbs;
+	//@include foundation-button-group;
+	//@include foundation-callout;
+	//@include foundation-close-button;
+	//@include foundation-drilldown-menu;
+	@include foundation-dropdown;
+	@include foundation-dropdown-menu;
+	//@include foundation-flex-video;
+	//@include foundation-label;
+	//@include foundation-media-object;
+	@include foundation-menu;
+	@include foundation-off-canvas;
+	//@include foundation-orbit;
+	//@include foundation-pagination;
+	//@include foundation-progress-bar;
+	//@include foundation-slider;
+	@include foundation-sticky;
+	//@include foundation-reveal;
+	//@include foundation-switch;
+	@include foundation-table;
+	//@include foundation-tabs;
+	//@include foundation-thumbnail;
+	@include foundation-title-bar;
+	@include foundation-tooltip;
+	@include foundation-top-bar;
+	//@include foundation-typography;
+
+//Foundation Motion libraries
+@include motion-ui-transitions;
+@include motion-ui-animations;

@@ -1,0 +1,27 @@
+/*!
+Theme Name: VarCo Starter Theme
+Theme URI: http://www.thevariables.com
+Author: Meagh Bent for The Variables Company
+Author URI: http://thevariables.com
+Description: The Variables Company Starter Theme for use as a starting template for building custom themes.
+Version: 1.0
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: _mbbasetheme
+Domain Path: /languages/
+Tags:
+
+ _mbbasetheme is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+
+ */
+
+
+.sticky {}          /* DO NOT EDIT THIS */
+.gallery-caption {} /* THESE ARE USELESS */
+.bypostauthor {}    /* THEY ARE ONLY TO KEEP THEME CHECK HAPPY */
+.aligncenter {}
+.alignleft {}
+.alignright {}
+.wp-caption {}
+.screen-reader-text{}
+.wp-caption-text {}

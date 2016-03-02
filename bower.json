@@ -1,0 +1,21 @@
+{
+  "name": "wordpress-starter-theme",
+  "version": "1.0.0",
+  "description": "Site generator for GoCactus Wordpress starter theme.",
+  "author": "Go Cactus Inc. <support@gocactus.com>",
+  "main": "gulpfile.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "latest",
+    "foundation-icon-fonts" : "latest",
+    "motion-ui": "latest"
+  },
+  "private": true
+}
