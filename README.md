@@ -4,7 +4,7 @@ Version: 1.0.0
 
 ## Author:
 
-[VarCs](http://thevariables.com) by [Meagh Bent](http://meagh.com)
+[VarCo](http://thevariables.com) by [Meagh Bent](http://meagh.com)
 
 ## Summary
 
