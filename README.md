@@ -1,10 +1,10 @@
 # WordPress Starter Theme
 
-Version: 4.1.1
+Version: 1.0.0
 
 ## Author:
 
-[Go Cactus](http://gocactus.com) by [Meagh Bent](http://meagh.com)
+[VarCs](http://thevariables.com) by [Meagh Bent](http://meagh.com)
 
 ## Summary
 
